@@ -1,0 +1,352 @@
+/* <<<<<<<<* Header Section Html *>>>>>>>>> */
+.header-section{
+    background-color: black;
+}
+.header-section2{
+    display: flex;
+    padding: 15px 0;
+}
+.header-logo{
+    flex-basis: 30%;
+    display: flex;
+    justify-content: center;
+}
+.header-logo img{
+    width: 100px;
+}
+.header-menu{
+    flex-basis: 70%;
+    display: flex;
+    
+    justify-content: center;
+}
+.header-menu ul {
+	display: flex;
+	align-items: center;
+}
+.header-menu ul li{
+    display: flex;
+    justify-content: space-evenly;
+    flex-grow: 1;
+}
+.header-menu ul li a {
+	display: block;
+	color: #fff;
+	font-size: 18px;
+	text-decoration: none;
+    padding: 15px 15px;
+    margin-right: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* <<<<<<<<<* About And Slider Css *>>>>>>>>>> */
+
+.about-slider{
+    display: flex;
+}
+.about{
+    flex-basis: 80%;
+    margin-top: 120px;
+}
+.slider{
+    flex-basis: 20%;
+    margin-top: 70px;
+}
+
+/* about 1 */
+
+.about-1{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.about-section{
+    height: 250px;
+    width: 300px;
+    border: 2px solid green;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.about-size h5{
+    color: #Fff;
+    background-color: red;
+    padding: 20px 0;
+}
+.about-section2{
+    height: 250px;
+    width: 300px;
+    border: 2px solid green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-size2 h5{
+    color: #Fff;
+    background-color: red;
+    padding: 20px 0;
+}
+.about-section3{
+    height: 250px;
+    width: 300px;
+    border: 2px solid green;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.about-size3 h5{
+    color: #Fff;
+    background-color: red;
+    padding: 20px 0;
+}
+
+
+/* Slider */
+
+
+.slider-right{
+    background-color: rgb(194, 194, 194);
+    border-left: 2px solid red;
+    height: 800px;
+}
+.logo-img2 {
+	width: 270px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.slider-right h6 {
+	font-weight: 600;
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-bottom: 15px;
+}
+.slider-right p {
+	font-size: 15px;
+	padding-left: 20px;
+	padding-right: 10px;
+}
+
+
+/* about 2 */
+
+.about-2{
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-evenly;
+}
+.about-size-2{
+    height: 220px;
+    width: 250px;
+    border: 1px solid green;
+}
+.about-size-2 p{
+    padding: 30px;
+}
+
+.about-2-basis{
+    flex-basis: 400px;
+}
+
+/* about 3 */
+.about-3{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+.about-3-content{
+    display: flex;
+    height: 180px;
+    width: 300px;
+    border: 1px solid green;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top: 30px;
+}
+.about-item-3{
+    background-color: red;
+    color: #fff;
+    padding: 5px;
+    border: 1px solid green;
+}
+
+.about-3-content2{
+    display: flex;
+    height: 180px;
+    width: 300px;
+    border: 1px solid green;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 30px;
+    align-content: flex-start;
+}
+.about-item-4{
+    background-color: red;
+    color: #fff;
+    padding: 5px;
+    border: 1px solid green;
+}
+
+
+.about-3-content3{
+    display: flex;
+    height: 180px;
+    width: 300px;
+    border: 1px solid green;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 30px;
+    align-content: flex-start;
+}
+.about-item-5{
+background-color: red;
+color: #fff;
+padding: 5px;
+border: 1px solid green;
+}
+
+.dfrnt-1{
+}
+.dfrnt-2{
+    margin-top: 45px;
+    margin-left: 14px;
+}
+.dfrnt-3{
+    margin-top: 90px;
+    margin-left: 14px;
+}
+
+.menu-section-2{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin-top: 0;
+}
+
+.menu-section-2 li{}
+.menu-section-2 li a{
+    border-bottom: 1px solid #ddd;
+    display: block;
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 9px 12px;
+    margin-right: 10px;
+}
+
+.footer-section{
+    background-color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* <section class="about-slider-section">
+
+    <div class="about-section-size bigger-div">
+      <div class="about-section">
+        <div class="about-size">
+          <h5>CENTER</h5>
+        </div>
+      </div>
+
+      <div class="about-section2">
+        <div class="about-size2">
+          <h5>CENTER</h5>
+        </div>
+      </div>
+
+      <div class="about-section3">
+        <div class="about-size3">
+          <h5>CENTER</h5>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="slider-section smaller-div">
+      <div class="slider-right">
+        <h6>Right Slidebar</h6>
+        <img class="logo-img2" src="https://i0.wp.com/www.lfwfacademy.com/wp-content/uploads/2020/09/lfwfacademy-logo-1.png?fit=395%2C250&ssl=1" alt="">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam architecto, atque at provident quibusdam in fugiat esciunt suscipit illo, nam porro accusantium nulla?</p>
+      </div>
+    </div>
+  </section> */
+
+
+
+
+
+  /* .about-slider-section{
+    margin-top: 70px;
+    display: flex;
+}
+.bigger-div{
+    flex-basis: 80%;
+}
+.smaller-div{
+    flex-basis: 20%;
+}
+.about-section-size{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+.about-section{
+    height: 250px;
+    width: 300px;
+    border: 2px solid green;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.about-size h5{
+    color: #Fff;
+    background-color: red;
+    padding: 20px 0;
+}
+.about-section2{
+    height: 250px;
+    width: 300px;
+    border: 2px solid green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-size2 h5{
+    color: #Fff;
+    background-color: red;
+    padding: 20px 0;
+}
+.about-section3{
+    height: 250px;
+    width: 300px;
+    border: 2px solid green;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.about-size3 h5{
+    color: #Fff;
+    background-color: red;
+    padding: 20px 0;
+} */
